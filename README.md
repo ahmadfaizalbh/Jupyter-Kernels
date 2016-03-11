@@ -185,6 +185,7 @@ do any one of bellow and restart your server
   su USER -c 'export JAVA_HOME=/usr/lib/jvm/java-8-oracle;export WORKON_HOME=/home/USER/Envs;source /home/USER/Envs/MyVEnviron/bin/activate;/home/USER/Envs/MyVEnviron/bin/jupyter  notebook;deactivate'
   exit 0
   ```
+ 
 once server restarts wait for a minute and then try in your browser [https://your server IP:9999]() , your browser may show security warning please go to advance options and accept certificate. and then refresh your page it will prompt for password, enter the one used to genrate hashed password.
 
 # Done!
